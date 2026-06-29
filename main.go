@@ -6,10 +6,10 @@ func main() {
     const conferenceTickets = 50
 	var availableTickets = 20 
    
-   fmt.Print("Welcome to ", conferenceName, " the  booking application ")
+   fmt.Printf("Welcome to %v the  booking application\n", conferenceName)
     
-   fmt.Print("Get your tickets to attend")
-   
-   fmt.Print("We have a total of ", conferenceTickets, " tickets and ", availableTickets, " are still available.")
+   fmt.Println("Get your tickets to attend")
+
+   fmt.Printf("We have a total of %v tickets and %v are still available.\n", conferenceTickets, availableTickets)
    
 }
