@@ -13,6 +13,7 @@ func main() {
    fmt.Printf("We have a total of %v tickets and %v are still available.\n", conferenceTickets, availableTickets)
      
    var firstname string
+   fmt.Println("Enter your firstname:")
    fmt.Scan(&firstname)
 //    fmt.Printf("the firstname is %v\n", firstname)
 
@@ -32,6 +33,6 @@ func main() {
 
   
   var bookings = [50]string{}
-  bookings[0] =  "nana"
-  fmt.Println(bookings)
+  bookings[0] =  firstname + " " + lastname
+
 }
