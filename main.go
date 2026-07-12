@@ -29,4 +29,9 @@ func main() {
   
   fmt.Printf("Thank you %v %v for booking %v tickets. You will receive a confirmation email shortly.\n", firstname, lastname, userTickets)
   fmt.Printf("%v tickets remaining for %v\n", remainingTickets, conferenceName)
+
+  
+  var bookings = [50]string{}
+  bookings[0] =  "nana"
+  fmt.Println(bookings)
 }
