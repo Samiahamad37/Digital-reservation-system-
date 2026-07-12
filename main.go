@@ -34,5 +34,8 @@ func main() {
   
   var bookings = [50]string{}
   bookings[0] =  firstname + " " + lastname
+  
 
+  fmt.Printf("The first booking is %v\n", bookings[0])
+  fmt.Printf("The length of bookings is %v\n", len(bookings))
 }
